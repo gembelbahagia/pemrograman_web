@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <title>To Do List App</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo-container">
+        <header>
+            <h1>To Do List</h1>
+        </header>
+        <form action="" id="todo-form">
+            <p>Activity</p>
+            <div class="form-control">
+                <input type="text" id="todo-input" placeholder="Type Here Your Task">
+                <button type="submit">
+                    <i class='bx bx-plus' ></i>
+                </button>
+            </div>
+        </form>
+        <form action="" id="edit-form" class="hide">
+            <p>Edit Your Task</p>
+            <div class="form-control">
+                <input type="text" id="edit-input" placeholder="Type Here Your Task">
+                <button type="submit">
+                    <i class='bx bx-check-double'></i>
+                </button>
+            </div>
+            <button type="button" id="cancel-edit-btn">Cancel</button>
+        </form>
+        <div class="todo-list" id="todo-list">
+            <div class="todo">
+                <h3>Some Default Task</h3>
+                <button class="finish-todo">
+                    <i class='bx bx-check'></i>
+                </button>
+                <button class="edit-todo">
+                    <i class='bx bx-pencil' ></i>
+                </button>
+                <button class="remove-todo">
+                    <i class='bx bxs-trash'></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html

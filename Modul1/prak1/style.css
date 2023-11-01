@@ -1,0 +1,73 @@
+.login {
+  background-color: blue;
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+.sign-up {
+  border-color: black;
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(/assets/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.home-text {
+  padding: 1.4rem 8%;
+  max-width: 60;
+  color: white;
+}
+
+h5 {
+  margin-left: 40px;
+}
+
+.nav-item {
+  margin-bottom: 10px;
+}
+
+.facebook {
+  margin-right: 10px;
+  width: 8px;
+  height: auto;
+}
+
+.instagram {
+  margin-right: 8px;
+  width: 15px;
+  height: auto;
+}
+
+.twitter {
+  margin-right: 2px;
+  width: 15px;
+  height: auto;
+}
+
+/* CSS untuk layar berukuran 768px atau lebih kecil */
+@media (max-width: 768px) {
+  .row-cols-1.row-cols-sm-2.row-cols-md-4.py-5.my-5 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .col img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .col p {
+    padding-left: 0;
+  }
+}
